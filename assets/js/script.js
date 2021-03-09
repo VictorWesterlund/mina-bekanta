@@ -1,4 +1,4 @@
-function äreFredag() {
+(function {
 	var date = new Date();
 	var element;
 
@@ -12,6 +12,4 @@ function äreFredag() {
 	}
 
 	return document.body.insertAdjacentElement("afterbegin",element);
-}
-
-äreFredag();
+})();
